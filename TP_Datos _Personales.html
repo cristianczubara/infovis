@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Datos Personales - Info Viz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #f8fafc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .tableau-container {
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            border-radius: 0.75rem;
+            overflow: hidden;
+            background: white;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <div class="max-w-6xl mx-auto">
+        <!-- Encabezado -->
+        <header class="mb-8 text-center">
+            <h1 class="text-3xl font-bold text-slate-800 mb-2">TP Data Personal - Info Viz</h1>
+            <p class="text-slate-600 italic">Visualización interactiva de registros personales</p>
+        </header>
+
+        <!-- Contenedor del Dashboard -->
+        <div class="tableau-container p-2">
+            <div class='tableauPlaceholder' id='viz1714396000000' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Historia 1 ' src='https://public.tableau.com/static/images/TP/TP1DataViz_17770102122260/Historia1/1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='TP1DataViz_17770102122260/Historia1' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https://public.tableau.com/static/images/TP/TP1DataViz_17770102122260/Historia1/1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='es-ES' />
+                </object>
+            </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1714396000000');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+        </div>
+
+        <!-- Enlaces de respaldo -->
+        <footer class="mt-8 text-center text-sm text-slate-500">
+            <p>Si la visualización no carga, podés verla directamente en 
+                <a href="https://public.tableau.com/views/TP1DataViz_17770102122260/Historia1?:language=es-ES&:sid=&:display_count=n&:origin=viz_share_link" 
+                   target="_blank" 
+                   class="text-blue-600 hover:underline font-medium">
+                   Tableau Public
+                </a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
