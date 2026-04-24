@@ -3,45 +3,51 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP Datos Personales - Info Viz</title>
+    <title>TP Datos Personales - MCD ITBA 2025B</title>
+    <!-- Tailwind CSS para diseño moderno -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            background-color: #f8fafc;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f1f5f9;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         }
-        .tableau-container {
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-            border-radius: 0.75rem;
-            overflow: hidden;
+        /* Este contenedor controla que el Tableau no sea gigante */
+        .tableau-wrapper {
+            max-width: 900px; 
+            margin: 0 auto;
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+            border-radius: 1rem;
             background: white;
+            padding: 20px;
+            border: 1px solid #e2e8f0;
         }
     </style>
 </head>
-<body class="p-4 md:p-8">
-    <div class="max-w-6xl mx-auto">
-        <!-- Encabezado -->
-        <header class="mb-8 text-center">
-            <h1 class="text-3xl font-bold text-slate-800 mb-2">TP Data Personal - Info Viz</h1>
-            <p class="text-slate-600 italic">Visualización interactiva de registros personales</p>
+<body class="p-6 md:p-12">
+
+    <div class="max-w-5xl mx-auto">
+        <!-- Título y encabezado actualizado -->
+        <header class="mb-10 text-center">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-3">TP Data Personal</h1>
+            <p class="text-slate-500 text-lg font-medium">Información Visualizada · MCD ITBA 2025B</p>
+            <div class="h-1.5 w-16 bg-blue-600 mx-auto mt-4 rounded-full"></div>
         </header>
 
-        <!-- Contenedor del Dashboard -->
-        <div class="tableau-container p-2">
+        <!-- Contenedor del Dashboard Ajustado -->
+        <div class="tableau-wrapper">
             <div class='tableauPlaceholder' id='viz1714396000000' style='position: relative'>
                 <noscript>
                     <a href='#'>
-                        <img alt='Historia 1 ' src='https://public.tableau.com/static/images/TP/TP1DataViz_17770102122260/Historia1/1_rss.png' style='border: none' />
+                        <img alt='Dashboard de Datos Personales' src='https://public.tableau.com/static/images/TP/TP1DataViz_17770102122260/Historia1/1_rss.png' style='border: none' />
                     </a>
                 </noscript>
-                <object class='tableauViz'  style='display:none;'>
+                <object class='tableauViz' style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                     <param name='embed_code_version' value='3' /> 
                     <param name='site_root' value='' />
                     <param name='name' value='TP1DataViz_17770102122260/Historia1' />
                     <param name='tabs' value='no' />
                     <param name='toolbar' value='yes' />
-                    <param name='static_image' value='https://public.tableau.com/static/images/TP/TP1DataViz_17770102122260/Historia1/1.png' /> 
                     <param name='animate_transition' value='yes' />
                     <param name='display_static_image' value='yes' />
                     <param name='display_spinner' value='yes' />
@@ -50,26 +56,35 @@
                     <param name='language' value='es-ES' />
                 </object>
             </div>                
+            
             <script type='text/javascript'>                    
                 var divElement = document.getElementById('viz1714396000000');                    
                 var vizElement = divElement.getElementsByTagName('object')[0];                    
-                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                
+                // Ajustamos el ancho al 100% del contenedor blanco
+                vizElement.style.width = '100%'; 
+                
+                // Ajuste de altura proporcional (0.65 es ideal para historias apaisadas)
+                vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px';                    
+                
                 var scriptElement = document.createElement('script');                    
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);                
             </script>
         </div>
 
-        <!-- Enlaces de respaldo -->
-        <footer class="mt-8 text-center text-sm text-slate-500">
-            <p>Si la visualización no carga, podés verla directamente en 
-                <a href="https://public.tableau.com/views/TP1DataViz_17770102122260/Historia1?:language=es-ES&:sid=&:display_count=n&:origin=viz_share_link" 
+        <!-- Footer con link de respaldo -->
+        <footer class="mt-12 text-center">
+            <p class="text-sm text-slate-400">
+                Visualización interactiva. Si no carga correctamente, podés verla en 
+                <a href="https://public.tableau.com/views/TP1DataViz_17770102122260/Historia1?:language=es-ES&:display_count=n&:origin=viz_share_link" 
                    target="_blank" 
-                   class="text-blue-600 hover:underline font-medium">
-                   Tableau Public
-                </a>
+                   class="text-blue-500 hover:text-blue-700 underline underline-offset-4 transition-colors">
+                    Tableau Public
+                </a>.
             </p>
         </footer>
     </div>
+
 </body>
 </html>
