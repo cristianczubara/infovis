@@ -3,38 +3,73 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Redirección automática después de 0 segundos -->
-    <meta http-equiv="refresh" content="0; url=https://public.tableau.com/views/TP1DataViz_17770102122260/Historia1?:language=es-ES&:display_count=n&:origin=viz_share_link">
-    <title>Redireccionando a Tableau - MCD ITBA 2025B</title>
+    <title>Visualización TP - MCD ITBA 2025B</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script type="text/javascript">
-        // Redirección por JavaScript como respaldo
-        window.location.href = "https://public.tableau.com/views/TP1DataViz_17770102122260/Historia1?:language=es-ES&:display_count=n&:origin=viz_share_link"
-    </script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* Evita el scroll de la página principal */
+            background-color: #ffffff;
+        }
+        /* Contenedor que obliga al Dashboard a ajustarse a la pantalla */
+        .viz-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        #tableauViz {
+            flex-grow: 1;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
-<body class="bg-slate-50 flex items-center justify-center min-h-screen">
+<body>
 
-    <div class="text-center p-8 bg-white shadow-xl rounded-2xl max-w-md border border-slate-100">
-        <div class="mb-6">
-            <!-- Spinner de carga simple -->
-            <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-blue-600 border-t-transparent"></div>
+    <div class="viz-container">
+        <!-- El Dashboard de Tableau ocupando toda la pantalla disponible -->
+        <div class='tableauPlaceholder' id='viz1714396000000' style='position: relative; width: 100%; height: 100%;'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Dashboard MCD ITBA' src='https://public.tableau.com/static/images/TP/TP1DataViz_17770102122260/Historia1/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='TP1DataViz_17770102122260/Historia1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/TP/TP1DataViz_17770102122260/Historia1/1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='es-ES' />
+            </object>
         </div>
-        
-        <h1 class="text-2xl font-bold text-slate-800 mb-2">Redireccionando al TP</h1>
-        <p class="text-slate-500 mb-6">Estamos abriendo la visualización en <strong>Tableau Public</strong> para MCD ITBA 2025B...</p>
-        
-        <p class="text-xs text-slate-400">
-            Si no sos redirigido automáticamente, 
-            <a href="https://public.tableau.com/views/TP1DataViz_17770102122260/Historia1?:language=es-ES&:display_count=n&:origin=viz_share_link" 
-               class="text-blue-600 hover:underline font-semibold">
-               hacé clic acá
-            </a>.
-        </p>
     </div>
 
+    <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1714396000000');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        
+        // Forzamos el tamaño al 100% del alto y ancho de la ventana
+        vizElement.style.width = '100%';
+        vizElement.style.height = '100%';                    
+        
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
 </body>
-</html>        <div class="tableau-wrapper">
-            <div class='tableauPlaceholder' id='viz1714396000000' style='position: relative'>
+</html>            <div class='tableauPlaceholder' id='viz1714396000000' style='position: relative'>
                 <noscript>
                     <a href='#'>
                         <img alt='Dashboard de Datos Personales' src='https://public.tableau.com/static/images/TP/TP1DataViz_17770102122260/Historia1/1_rss.png' style='border: none' />
