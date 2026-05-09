@@ -3,16 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP Datos Personales - Info Viz</title>
+    <title>Análisis Nutricional - Data Viz</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            background-color: #f8fafc;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f1f5f9;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
         }
         .tableau-container {
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-            border-radius: 0.75rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            border-radius: 1rem;
             overflow: hidden;
             background: white;
         }
@@ -20,21 +20,19 @@
 </head>
 <body class="p-4 md:p-8">
     <div class="max-w-6xl mx-auto">
-        <!-- Encabezado -->
         <header class="mb-8 text-center">
-            <h1 class="text-3xl font-bold text-slate-800 mb-2">TP Data Personal - Info Viz</h1>
-            <p class="text-slate-600 italic">Visualización interactiva de registros personales</p>
+            <h1 class="text-3xl font-bold text-slate-800 mb-2">Análisis de Composición Nutricional</h1>
+            <p class="text-slate-600 italic">Visualización interactiva sobre componentes y grupos de alimentos</p>
         </header>
 
-        <!-- Contenedor del Dashboard -->
-        <div class="tableau-container p-2">
-            <div class='tableauPlaceholder' id='viz1714396000000' style='position: relative'>
+        <div class="tableau-container p-4">
+            <div class='tableauPlaceholder' id='vizNutricion' style='position: relative'>
                 <noscript>
                     <a href='#'>
-                        <img alt='Historia 1 ' src='https://public.tableau.com/static/images/TP/TP1DataViz_17770102122260/Historia1/1_rss.png' style='border: none' />
+                        <img alt='Historia Nutricional' src='https://public.tableau.com/static/images/TP/TP1DataViz_17770102122260/Historia1/1_rss.png' style='border: none' />
                     </a>
                 </noscript>
-                <object class='tableauViz'  style='display:none;'>
+                <object class='tableauViz' style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                     <param name='embed_code_version' value='3' /> 
                     <param name='site_root' value='' />
@@ -51,21 +49,24 @@
                 </object>
             </div>                
             <script type='text/javascript'>                    
-                var divElement = document.getElementById('viz1714396000000');                    
+                var divElement = document.getElementById('vizNutricion');                    
                 var vizElement = divElement.getElementsByTagName('object')[0];                    
-                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                
+                // Ajuste de tamaño para que no se corte
+                vizElement.style.width='100%';
+                vizElement.style.height='850px'; // Ajusta este valor según el largo de tu historia
+                
                 var scriptElement = document.createElement('script');                    
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);                
             </script>
         </div>
 
-        <!-- Enlaces de respaldo -->
         <footer class="mt-8 text-center text-sm text-slate-500">
-            <p>Si la visualización no carga, podés verla directamente en 
-                <a href="https://public.tableau.com/views/TP1DataViz_17770102122260/Historia1?:language=es-ES&:sid=&:display_count=n&:origin=viz_share_link" 
+            <p>Si la visualización no carga correctamente, podés verla en 
+                <a href="https://public.tableau.com/views/TP1DataViz_17770102122260/Historia1" 
                    target="_blank" 
-                   class="text-blue-600 hover:underline font-medium">
+                   class="text-emerald-600 hover:underline font-medium">
                    Tableau Public
                 </a>
             </p>
