@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="805"
+   height="600"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="viz-2.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs34">
+    <rect
+       x="31.582925"
+       y="2.2034599"
+       width="58.758931"
+       height="19.096652"
+       id="rect41" />
+    <rect
+       x="107.96954"
+       y="14.689733"
+       width="5.1414064"
+       height="13.220759"
+       id="rect38" />
+    <marker
+       style="overflow:visible"
+       id="marker36"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path36" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="namedview34"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="1.2407691"
+     inkscape:cx="357.84257"
+     inkscape:cy="232.1141"
+     inkscape:window-width="1470"
+     inkscape:window-height="923"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g34">
+    <sodipodi:guide
+       position="485.79545,-5.1136364"
+       orientation="0,-1"
+       id="guide34"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <rect
+     width="805"
+     height="600"
+     x="0"
+     y="0"
+     fill="#FFFFFF"
+     id="background" />
+  <g
+     id="viz"
+     transform="translate(-0.85227273,-4.2613636)">
+    <g
+       id="g34">
+      <g
+         transform="translate(100,20)"
+         id="g33">
+        <g
+           class="bars"
+           id="g1">
+          <rect
+             id="undefined - 11/02/2026"
+             x="0"
+             y="255.08994"
+             height="24.410954"
+             width="281.47501"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 12/02/2026"
+             x="0"
+             y="280.49911"
+             height="24.410954"
+             width="287.55624"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 13/02/2026"
+             x="0"
+             y="305.90829"
+             height="24.410954"
+             width="269.3125"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 14/02/2026"
+             x="0"
+             y="331.31744"
+             height="24.410954"
+             width="350.97501"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 15/02/2026"
+             x="0"
+             y="356.72662"
+             height="24.410954"
+             width="294.50626"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 18/02/2026"
+             x="0"
+             y="382.1358"
+             height="24.410954"
+             width="430.03125"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 23/02/2026"
+             x="0"
+             y="407.54498"
+             height="24.410954"
+             width="348.36874"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 28/02/2026"
+             x="0"
+             y="458.36331"
+             height="24.410954"
+             width="317.96249"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 01/03/2026"
+             x="0"
+             y="0.99821746"
+             height="24.410954"
+             width="364.875"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 02/03/2026"
+             x="0"
+             y="51.816563"
+             height="24.410954"
+             width="290.16251"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 03/03/2026"
+             x="0"
+             y="102.6349"
+             height="24.410954"
+             width="356.1875"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 04/03/2026"
+             x="0"
+             y="153.45325"
+             height="24.410954"
+             width="370.08749"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 05/03/2026"
+             x="0"
+             y="204.27159"
+             height="24.410954"
+             width="470.86249"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 27/04/2026"
+             x="0"
+             y="432.95413"
+             height="24.410954"
+             width="298.85001"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 28/04/2026"
+             x="0"
+             y="483.77249"
+             height="24.410954"
+             width="343.15625"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 29/04/2026"
+             x="0"
+             y="509.18167"
+             height="24.410954"
+             width="492.58124"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 30/04/2026"
+             x="0"
+             y="534.59082"
+             height="24.410954"
+             width="399.625"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 01/05/2026"
+             x="0"
+             y="26.407389"
+             height="24.410954"
+             width="276.26251"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 02/05/2026"
+             x="0"
+             y="77.225731"
+             height="24.410954"
+             width="668.24249"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 03/05/2026"
+             x="0"
+             y="128.04408"
+             height="24.410954"
+             width="386.59375"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 04/05/2026"
+             x="0"
+             y="178.86243"
+             height="24.410954"
+             width="375.29999"
+             fill="#1f77b4" />
+          <rect
+             id="undefined - 05/05/2026"
+             x="0"
+             y="229.68077"
+             height="24.410954"
+             width="183.30624"
+             fill="#1f77b4" />
+        </g>
+        <g
+           id="xAxis"
+           transform="translate(0,560)"
+           fill="none"
+           font-size="10px"
+           font-family="sans-serif"
+           text-anchor="middle">
+          <path
+             class="domain"
+             stroke="currentColor"
+             d="M 0,6 V 0 h 695 v 6"
+             id="path1" />
+          <g
+             class="tick"
+             opacity="1"
+             id="g2">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line1"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text1">0</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(86.875)"
+             id="g3">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line2"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text2">500</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(173.75)"
+             id="g4">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line3"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text3">1,000</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(260.625)"
+             id="g5">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line4"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text4">1,500</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(347.5)"
+             id="g6">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line5"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text5">2,000</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(434.375)"
+             id="g7">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line6"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text6">2,500</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(521.25)"
+             id="g8">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line7"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text7">3,000</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(608.125)"
+             id="g9">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line8"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text8">3,500</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(695)"
+             id="g10">
+            <line
+               stroke="currentColor"
+               y2="6"
+               id="line9"
+               x1="0"
+               y1="0"
+               x2="0" />
+            <text
+               fill="currentColor"
+               y="9"
+               dy="0.70999998em"
+               id="text9">4,000</text>
+          </g>
+          <text
+             font-family="Arial, sans-serif"
+             font-size="10px"
+             x="695"
+             dy="-5"
+             fill="#000000"
+             font-weight="bold"
+             text-anchor="end"
+             id="text10">Suma diara de Kcal</text>
+        </g>
+        <g
+           id="yAxis"
+           fill="none"
+           font-size="10px"
+           font-family="sans-serif"
+           text-anchor="end">
+          <path
+             class="domain"
+             stroke="currentColor"
+             d="M 0,0 V 560"
+             id="path10" />
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,13.203695)"
+             id="g11">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line10"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text11">01/03/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,38.612867)"
+             id="g12">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line11"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text12">01/05/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,64.022039)"
+             id="g13">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line12"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text13">02/03/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,89.431211)"
+             id="g14">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line13"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text14">02/05/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,114.84038)"
+             id="g15">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line14"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text15">03/03/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,140.24955)"
+             id="g16">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line15"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text16">03/05/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,165.65873)"
+             id="g17">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line16"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text17">04/03/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,191.0679)"
+             id="g18">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line17"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text18">04/05/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,216.47707)"
+             id="g19">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line18"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text19">05/03/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,241.88624)"
+             id="g20">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line19"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text20">05/05/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,267.29541)"
+             id="g21">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line20"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text21">11/02/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,292.70459)"
+             id="g22">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line21"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text22">12/02/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,318.11376)"
+             id="g23">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line22"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text23">13/02/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,343.52293)"
+             id="g24">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line23"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text24">14/02/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,368.9321)"
+             id="g25">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line24"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text25">15/02/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,394.34127)"
+             id="g26">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line25"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text26">18/02/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,419.75045)"
+             id="g27">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line26"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text27">23/02/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,445.15962)"
+             id="g28">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line27"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text28">27/04/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,470.56879)"
+             id="g29">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line28"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text29">28/02/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,495.97796)"
+             id="g30">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line29"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text30">28/04/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,521.38713)"
+             id="g31">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line30"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text31">29/04/2026</text>
+          </g>
+          <g
+             class="tick"
+             opacity="1"
+             transform="translate(0,546.79631)"
+             id="g32">
+            <line
+               stroke="currentColor"
+               x2="-6"
+               id="line31"
+               x1="0"
+               y1="0"
+               y2="0" />
+            <text
+               fill="currentColor"
+               x="-9"
+               dy="0.31999999em"
+               id="text32">30/04/2026</text>
+          </g>
+          <text
+             xml:space="preserve"
+             transform="translate(-99.147727,-15.738636)"
+             id="text38"
+             style="fill:#ff0013;writing-mode:lr-tb;text-orientation:auto;direction:ltr;opacity:1;stroke-width:0;stroke-dasharray:none;fill-opacity:1;white-space:pre;shape-inside:url(#rect38)" />
+          <text
+             xml:space="preserve"
+             transform="translate(-99.147727,-15.738636)"
+             id="text41"
+             style="fill:#ff0013;writing-mode:lr-tb;text-orientation:auto;direction:ltr;opacity:1;stroke-width:0;stroke-dasharray:none;fill-opacity:1;white-space:pre;shape-inside:url(#rect41)" />
+          <text
+             xml:space="preserve"
+             style="font-size:14.3935px;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+             x="-19.940281"
+             y="1.9733752"
+             id="text42"
+             transform="scale(0.97654743,1.0240158)"><tspan
+               sodipodi:role="line"
+               id="tspan42"
+               x="-19.940281"
+               y="1.9733752"
+               style="fill:#000000;fill-opacity:1;stroke-width:0">Fecha</tspan></text>
+        </g>
+      </g>
+      <text
+         y="4"
+         x="4"
+         style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;dominant-baseline:hanging;fill:#000000"
+         id="text34" />
+    </g>
+  </g>
+  <path
+     style="fill:#000000"
+     d="M 483.23864,6.8181818 488.35227,592.32955"
+     id="path34" />
+  <path
+     style="fill:#ff0013;opacity:1;stroke-width:0;stroke-dasharray:none;marker-start:url(#Triangle);marker-mid:url(#marker36);fill-opacity:1"
+     d="m 481.53409,5.1136364 c 0,587.2159136 0,585.5113636 0,585.5113636 h -0.85227"
+     id="path35" />
+  <text
+     xml:space="preserve"
+     style="writing-mode:lr-tb;direction:ltr;opacity:1;fill:#ff0013;fill-opacity:1;stroke-width:0;stroke-dasharray:none"
+     x="484.76117"
+     y="54.352013"
+     id="text36"><tspan
+       sodipodi:role="line"
+       x="484.76117"
+       y="54.352013"
+       id="tspan37">Límite diario sugerido (2200 kcal)</tspan></text>
+</svg>
