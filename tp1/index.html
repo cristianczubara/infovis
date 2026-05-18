@@ -1,92 +1,69 @@
-<! html>
-<html="es">
+<!DOCTYPE>
+<html lang="es">
 <head>
-    <meta charset="UTF-8" />
+    <meta="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Visualizaciones Nutricionales</title>
-   style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: .6;
- margin: 20px;
-            background: #fff9;
-            color: #333;
-        }
-        h1, h2 {
-            color:00539C;
-        }
-        section {
-            margin-bottom: 50px;
-            background #fff;
-            padding: 15px 20px;
-            border-radius: 8px;
-            box-shadow: 0 2 px rgba(0,0,,0.1);
- }
-        iframe .flour-embed, .tableauPlaceholder {
-            width: 100            border: none;
-           -radius: 5px;
-            box-shadow 0 1px 4px rgba(0,00,0.1        }
-        {
-            height: 500px            /* height adjusted for large content */
-        }
-        /* ajustes específicos para cada viz        .tableauPlaceholder {
-            height: 991px;
-            max: 1016px;
-            margin: auto;
-        }
-        .flourish-embed {
- height: 550px;
-        }
-   style>
+ <Visualizaciones Nutricionales</title>
 </head>
->
- <h1>Análisis deumo Nutricional Diario</h1>
+<body>
+    <h1>Visualizacionesricionales</1>
 
- <section>
-        <h2>1. de Kcal Consumidas por Día (Gráfico deas Horizontales)</h2>
-        <p>Este gráfico muestra el total de calorías consumidas cada día, desglosado por comida en una horizontal apil. Se visualizan las de, grasas y carbohidratos que conforman cada comida, permitiendo un análisis detallado de la composición nutricional diaria.</>
-        <iframe title="Composición nutric por comida" aria-labeled Bars" id="datawrapper-chart-pKRL src="https://datawrapper.dwcdn.net/pKRiL/1 scrolling="no" height="4245"="min-width: 100% !important;"></iframe    </section>
-
-   section>
-        <h2>2. Mapa de Cal de Calorías porida y Día</h2>
-        <>El mapa de calor destaca las variaciones en la cantidad de calorías por comida y día facilitando la identificación rápida de patrones y días con mayor o menoresta energética.</p>
-        < class="flishembed-map" data-src="visualisation/29075">
-            <script="https://public.flourishudio/resources/embed.js"></script>
-            <noscript><img srchttps://public.flourish.studio/visualisation29017675/thumbnail" width="100 alt="Heatmap visualización deías /></noscript       div>
-    </section>
-
-    <section        <h2>3. Comparación de Gramos de Kcal vs Gramos de Proteínas por Com (Scatter Plot)</h>
-        <>Esta visualización de scatter plot compara los gramos de calorías y proteínas por comida. El tamaño cada indica la cantidad de carbohidratos y interact con elemento, se un detalle enriquecido de la composición nutricional.</p>
-        <div class="tableauPlaceholder" id="viz1779094247295" styleposition relative;">
-            <noscript>
-                <a href="#">
-                    <img alt="Nutrición" src="https://public.table.com/static/images/TP/TP1InfoVis/Historia1/1ss.png" style="border: none" />
-                </a>
-            </noscript>
-            <object class="tableauViz"="display:none;">
-               param name="host_url" value="https%3A%2F%Fpublic.tableau.com%2F" />
-                <param name="embed_code_version" value="" />
-                <param name="site_root" value="" />
-               param name="name" value="TPInfoVis/Historia1" />
-                < name="tabs" valueno />
-                <param name="toolbar value="yes />
-                <param name="static" value="https://public.tableau.com/static/imagesTP/TP1InfoVis/Historia11" />
-                <param name="_transition" value="yes" />
-                <param name="display_static_image" value="yes" />
-                <param name="display_spinner" value="yes" />
-                <param name="_overlay" value="yes" />
-                <param name="display" value="yes" />
- <param namelanguage" value="es-ES" />
-            </object        </>
-        <script type="text/javascript            var divElement = document.getElementById('viz1779094247295');
-            var vizElement = divElement.getElementsByTagName('object')[0];
-            vizElement.width = '1016px';
-            vizElement.style.height = '991px';
-            var scriptElement = document.createElement('script');
-            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    <section>
+       h>1. Cons total de calor diarias</h2>
+        <p> de barras horizontales que muestra total de consumidas cada díaando la comparación diaria.</>
+        < title="umo total de kcal di" aria-labelB horizontales" id="datawrapper-chartKRiL" src="://datawrapper.dwcdn.net/pKRiL/1/" scrolling="no" frameborder0" style="width 100%; border: none;" height="4245"></iframe>
+        <script>
+            window.addEventListenermessage", function(event {
+                if (typeof event["datawrapper-height"] !== "undefined") {
+                    var iframes =.querySelectorAll("iframe");
+                    for (var key in event.data["datawrapper"]) {
+                        for (var = 0 i < iframes.length; i++) {
+                            if (ifr[i].contentWindow === event.source) {
+                                ifr[i].style.height event.data["datawrapper-height"][key] + "px";
+                            }
+                                           }
+                }
+            });
         </script>
     </section>
 
-</body>
+    <>
+        <h2>2.posición nutricional por</h>
+        <p>Barras horizontales apil que la cantidad de kcal, proteínas, grasas yatos cada comida.</p        <iframe title="posición nutricional por comida" aria-label="Stacked Bars src="https://wrapper.dwcdn/pKRL/1/" style="width:100%; height: 600px; border:none;"></iframe>
+   section>
+
+    <section>
+        <h2>3. Mapa calor delio por comida y día</h2>
+        <p>Mapa de calor que indica el contenido de sodio en cada comida a lo largo de los días, para identificar patrones de ingesta.</p>
+        < class="flourish-embed flourish-heatmap" data-src="visualisation29075" style="width:100%; height:600px;">
+            <script src="https://publicour.studio/resources/embed.js"></script            <noscript>< src="https://public.flish.studio/visualisation/29017675/thumbnail" width="%" alt="Mapa de calor de sodio" /></noscript>
+        </>
+    </section>
+
+    <section        <24. Comparación de gramos de kcal gramos de proteínas por comida</h2>
+        <pScatter plot que compara gramos kcal frente a gramos de proteínas, el tamaño del punto indicando la cantidad de carbohidratos.</p>
+div class='tableauPlaceholder' id='viz1774247295' styleposition: relative; width: 100%; height: 991px;'>
+            <noscript>< href='#'><img alt='Nutrición' src='https://public.tableau/static/images/TP/TP1InfoVisHistoria1/1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz' style='width:100%; height: 991px; display block;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%F' />
+                <param nameembed_code_version' value='3' />
+                <param name='site_root' value=''                <param name='name' value='TP1Vis/Historia1' />
+                <param name='' value='no' />
+                <param name='toolbar' value='yes'                <param name='static_image' value='https://public.tableau.com/static/images/TP/TP1InfoVis/Historia1/1.png'                <param='animate_transition' value='yes'                <param name='display_static_image' value='yes' />
+                <param='display_spinner' value='yes' />
+                <param name='display_overlay value='yes' />
+                <param name_count' value='yes' />
+                <param name='language' value='es-ES' />
+            </object>
+        </div>
+        <script type='/javascript'>
+            var divElement = document.getElementById('viz1779094247295');
+            var vizElement =Element.getElementsByTagName('object')[];
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+           .parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </section>
+
+</>
 </html>
