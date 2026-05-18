@@ -1,69 +1,232 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
- <Visualizaciones Nutricionales</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte Avanzado de Análisis Nutricional</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #d9534f;
+            --bg: #f8f9fa;
+            --text: #333333;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            font-weight: 300;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            opacity: 0.8;
+            font-size: 1.1rem;
+        }
+
+        nav {
+            background: #ffffff;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        nav a {
+            color: var(--primary);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .intro-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 3rem;
+            border-left: 5px solid var(--primary);
+        }
+
+        .viz-section {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            margin-bottom: 3.5rem;
+        }
+
+        .viz-section h2 {
+            color: var(--primary);
+            margin-top: 0;
+            border-bottom: 2px solid #eaeded;
+            padding-bottom: 0.5rem;
+            font-size: 1.6rem;
+        }
+
+        .narrative {
+            font-size: 1.05rem;
+            color: #555;
+            margin-bottom: 2rem;
+            text-align: justify;
+        }
+
+        .highlight {
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        .viz-container {
+            display: block;
+            background: #ffffff;
+            padding: 1rem;
+            border-radius: 4px;
+            border: 1px solid #e1e8ed;
+            overflow-x: auto;
+        }
+
+        .viz-container iframe {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .viz-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            border-top: 1px solid #e1e8ed;
+            margin-top: 4rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Visualizacionesricionales</1>
 
-    <section>
-       h>1. Cons total de calor diarias</h2>
-        <p> de barras horizontales que muestra total de consumidas cada díaando la comparación diaria.</>
-        < title="umo total de kcal di" aria-labelB horizontales" id="datawrapper-chartKRiL" src="://datawrapper.dwcdn.net/pKRiL/1/" scrolling="no" frameborder0" style="width 100%; border: none;" height="4245"></iframe>
-        <script>
-            window.addEventListenermessage", function(event {
-                if (typeof event["datawrapper-height"] !== "undefined") {
-                    var iframes =.querySelectorAll("iframe");
-                    for (var key in event.data["datawrapper"]) {
-                        for (var = 0 i < iframes.length; i++) {
-                            if (ifr[i].contentWindow === event.source) {
-                                ifr[i].style.height event.data["datawrapper-height"][key] + "px";
-                            }
-                                           }
-                }
-            });
-        </script>
-    </section>
+    <header>
+        <h1>Análisis Visual de Patrones Nutricionales</h1>
+        <p>Un recorrido analítico desde el balance macro calórico hasta la densidad de nutrientes por ingesta</p>
+    </header>
 
-    <>
-        <h2>2.posición nutricional por</h>
-        <p>Barras horizontales apil que la cantidad de kcal, proteínas, grasas yatos cada comida.</p        <iframe title="posición nutricional por comida" aria-label="Stacked Bars src="https://wrapper.dwcdn/pKRL/1/" style="width:100%; height: 600px; border:none;"></iframe>
-   section>
+    <nav>
+        <a href="#total-diario">1. Balance Diario</a>
+        <a href="#composicion">2. Perfil de Macronutrientes</a>
+        <a href="#distribucion">3. Densidad Temporal</a>
+        <a href="#correlacion">4. Calidad Nutricional</a>
+    </nav>
 
-    <section>
-        <h2>3. Mapa calor delio por comida y día</h2>
-        <p>Mapa de calor que indica el contenido de sodio en cada comida a lo largo de los días, para identificar patrones de ingesta.</p>
-        < class="flourish-embed flourish-heatmap" data-src="visualisation29075" style="width:100%; height:600px;">
-            <script src="https://publicour.studio/resources/embed.js"></script            <noscript>< src="https://public.flish.studio/visualisation/29017675/thumbnail" width="%" alt="Mapa de calor de sodio" /></noscript>
-        </>
-    </section>
-
-    <section        <24. Comparación de gramos de kcal gramos de proteínas por comida</h2>
-        <pScatter plot que compara gramos kcal frente a gramos de proteínas, el tamaño del punto indicando la cantidad de carbohidratos.</p>
-div class='tableauPlaceholder' id='viz1774247295' styleposition: relative; width: 100%; height: 991px;'>
-            <noscript>< href='#'><img alt='Nutrición' src='https://public.tableau/static/images/TP/TP1InfoVisHistoria1/1_rss.png' style='border: none' /></a></noscript>
-            <object class='tableauViz' style='width:100%; height: 991px; display block;'>
-                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%F' />
-                <param nameembed_code_version' value='3' />
-                <param name='site_root' value=''                <param name='name' value='TP1Vis/Historia1' />
-                <param name='' value='no' />
-                <param name='toolbar' value='yes'                <param name='static_image' value='https://public.tableau.com/static/images/TP/TP1InfoVis/Historia1/1.png'                <param='animate_transition' value='yes'                <param name='display_static_image' value='yes' />
-                <param='display_spinner' value='yes' />
-                <param name='display_overlay value='yes' />
-                <param name_count' value='yes' />
-                <param name='language' value='es-ES' />
-            </object>
+    <div class="container">
+        
+        <div class="intro-card">
+            <p><strong>Contexto del Proyecto:</strong> Este reporte técnico presenta una exploración de datos nutricionales personales recolectados cronológicamente. Utilizando un enfoque de diseño de información multidimensional, la narrativa avanza de forma piramidal: inicia evaluando el cumplimiento calórico general diario, desglosa la estructura química de los platos individuales y concluye aislando las variables que determinan la eficiencia y la calidad de los alimentos consumidos frente a las metas biológicas.</p>
         </div>
-        <script type='/javascript'>
-            var divElement = document.getElementById('viz1779094247295');
-            var vizElement =Element.getElementsByTagName('object')[];
-            var scriptElement = document.createElement('script');
-            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-           .parentNode.insertBefore(scriptElement, vizElement);
-        </script>
-    </section>
 
-</>
+        <section class="viz-section" id="total-diario">
+            <h2>1. Consumo Calórico Diario Total y Desviación de Metas</h2>
+            <p class="narrative">
+                Esta primera visualización funciona como el diagnóstico macro del dataset para medir la regularidad de la ingesta calórica. A través de barras horizontales, se computa la energía total (Kcal) ingerida por día. La inclusión de la línea roja de referencia estática en las <span class="highlight">2.200 kcal</span> actúa como un umbral analítico inmediato. Al comparar el largo de las barras contra este límite, se destaca visualmente una conducta estable en la mayoría de las jornadas; sin embargo, salta a la vista un pico crítico (el día 02/05/2026) que casi duplica la meta recomendada. Sería interesante indagar qué hechos llevaron a esa anomalía, para intentar evitarlas en el futuro. El puede observar, también, que el límete expedido los otros días se compensa con las ingestas menores en el resto de las mediciones.
+            </p>
+            <div class="viz-container">
+                <img src="Grafico de barras horizontal.svg" alt="Gráfico de barras horizontales de consumo diario total">
+            </div>
+        </section>
+
+        <section class="viz-section" id="composicion">
+            <h2>2. Perfil de Macronutrientes y Desglose por Comida</h2>
+            <p class="narrative">
+                Con el objetivo de entender qué compone esa energía, esta sección profundiza en el nivel meso mediante un gráfico de barras apiladas. Cada fila representa una comida única acompañada de una detallada descripción de sus ingredientes clave. En cada observación podemos ver cantidad total de kcal, y cantidad de grasas, carbohidratos y proteínasnas de cada comida. Esta vista es fundamental para comprender el peso específico de cada receta e identificar si los platos con mayor volumen calórico están correctamente equilibrados o si sufren un sesgo hacia algún macronutriente en particular.
+            </p>
+            <div class="viz-container">
+                <iframe title="Composición nutricional por comida" aria-label="Stacked Bars" id="datawrapper-chart-pKRiL" src="https://datawrapper.dwcdn.net/pKRiL/1/" scrolling="yes" frameborder="0" style="width: 100%; height: 750px; border: none;"></iframe>
+            </div>
+        </section>
+
+        <section class="viz-section" id="distribucion">
+            <h2>3. Matriz de Distribución Temporal: Ingestas e Intensidad Calórica</h2>
+            <p class="narrative">
+                Para descifrar los patrones temporales detrás del consumo, se configuró una matriz bidimensional en forma de mapa de calor. Al cruzar los días del calendario con las distintas comidas, las variaciones en la intensidad cromática del degradé permiten identificar instantáneamente en qué franjas horarias y momentos de la semana se concentra la mayor carga energética. Este enfoque facilita la detección de hábitos repetitivos o desajustes crónicos, como por ejemplo evaluar si los almuerzos o las cenas dominicales tienden sistemáticamente a presentar una mayor densidad de calorías que los desayunos o meriendas de los días hábiles.
+            </p>
+            <div class="viz-container">
+                <div class="flourish-embed flourish-heatmap" data-src="visualisation/29017675"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/29017675/thumbnail" width="100%" alt="heatmap visualization" /></noscript></div>
+            </div>
+        </section>
+
+        <section class="viz-section" id="correlacion">
+            <h2>4. Correlación Científica: Eficiencia Nutricional vs. Carga de Carbohidratos</h2>
+            <p class="narrative">
+                La última escala del reporte representa la fase estrictamente científica del análisis. Este gráfico de dispersión cruza de forma directa los gramos de proteína frente a las calorías de cada plato e incorpora una <span class="highlight">recta de tendencia </span> para evaluar el valor biológico de la dieta. Las comidas ubicadas por debajo de la línea de tendencia demuestran una alta calidad nutricional, aportando un elevado nivel proteico con un bajo costo energético. 
+                Complementariamente, la codificación visual añade capas analíticas cruciales: el color segmenta los datos por día de la semana, mientras que el volumen de las burbujas mapea la cantidad de carbohidratos. El patrón resultante es contundente: los elementos que se disparan en calorías y muestran baja eficiencia proteica coinciden con las esferas de mayor tamaño, demostrando empíricamente que los carbohidratos complejos son los principales impulsores de la densidad calórica excesiva.
+            </p>
+            <div class="viz-container">
+                <div class="tableauPlaceholder" id="viz1779106723175" style="position: relative; width: 100%;">
+                    <object class="tableauViz" style="display:none;">
+                        <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" /> 
+                        <param name="embed_code_version" value="3" /> 
+                        <param name="site_root" value="" />
+                        <param name="name" value="TP1InfoVis/Historia1" />
+                        <param name="tabs" value="no" />
+                        <param name="toolbar" value="yes" />
+                        <param name="animate_transition" value="yes" />
+                        <param name="display_static_image" value="yes" />
+                        <param name="display_spinner" value="yes" />
+                        <param name="display_overlay" value="yes" />
+                        <param name="display_count" value="yes" />
+                        <param name="language" value="es-ES" />
+                    </object>
+                </div>                
+                <script type="text/javascript">                    
+                    var divElement = document.getElementById('viz1779106723175');                    
+                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                    vizElement.style.width='100%';
+                    vizElement.style.height='991px';                    
+                    var scriptElement = document.createElement('script');                    
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Reporte Técnico diseñado para la entrega de Visualización de Información. Desarrollado con arquitecturas web responsivas e integración de RAWGraphs, Datawrapper, Flourish y Tableau Software.</p>
+    </footer>
+
+</body>
 </html>
